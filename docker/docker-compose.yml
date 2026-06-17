@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  bike-collector:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: bike-brand-daily-collector
+    restart: unless-stopped
+    
+    # Environment variables
+    environment:
+      - SMTP_SERVER=${SMTP_SERVER:-smtp.trinx.com}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_USE_TLS=${SMTP_USE_TLS:-true}
+      - EMAIL_USER=${EMAIL_USER:-jiajun.yuan@trinx.com}
+      - EMAIL_PASSWORD=${EMAIL_PASSWORD}
+      - RECIPIENTS=${RECIPIENTS}
+      - SCHEDULE_TIME=${SCHEDULE_TIME:-08:30}
+      - TIMEZONE=${TIMEZONE:-Asia/Shanghai}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - DEBUG=${DEBUG:-false}
+    
+    # Volumes
+    volumes:
+      - ./logs:/app/logs
+      - ./bike_collector.db:/app/bike_collector.db
+      - ./.env:/app/.env:ro
+    
+    # Port (if you want to add a health check endpoint later)
+    # ports:
+    #   - "8000:8000"
+    
+    # Resource limits
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 512M
+        reservations:
+          cpus: '0.5'
+          memory: 256M
+    
+    # Logging
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  bike-collector-data:
