@@ -1,0 +1,172 @@
+{
+  "brands_with_social_media": [
+    {
+      "id": "xds",
+      "name": "XDS喜德盛",
+      "country": "China",
+      "official_website": "https://www.xdsbike.com",
+      "news_channels": {
+        "official_news": "https://www.xdsbike.com/news/",
+        "weibo": "XDSbike",
+        "wechat_official_account": "xdsbike_official"
+      },
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "specialized",
+      "name": "Specialized闪电",
+      "country": "USA",
+      "official_website": "https://www.specialized.com",
+      "news_channels": {
+        "official_news": "https://www.specialized.com/ww/en/news",
+        "instagram": "specialized",
+        "facebook": "specializedbicycles",
+        "twitter": "@specialized"
+      },
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "santa_cruz",
+      "name": "Santa Cruz圣克鲁斯",
+      "country": "USA",
+      "official_website": "https://www.santacruzbicycles.com",
+      "news_channels": {
+        "official_news": "https://www.santacruzbicycles.com/en-US/news",
+        "instagram": "santacruzbicycles",
+        "facebook": "santacruzbicycles",
+        "twitter": "@santacruzbikes"
+      },
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "trek",
+      "name": "Trek",
+      "country": "USA",
+      "official_website": "https://www.trekbikes.com",
+      "news_channels": {
+        "official_news": "https://newsroom.trekbikes.com/",
+        "rss_feed": "https://newsroom.trekbikes.com/feed/",
+        "instagram": "trekbikes",
+        "facebook": "trekbikes",
+        "twitter": "@trekbikes"
+      },
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "giant",
+      "name": "Giant捷安特",
+      "country": "Taiwan",
+      "official_website": "https://www.giant-bicycles.com",
+      "news_channels": {
+        "official_news": "https://www.giant-bicycles.com/global/news",
+        "instagram": "giantbicycles",
+        "facebook": "giantbicycles",
+        "twitter": "@giantbicycles"
+      },
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "yeti",
+      "name": "Yeti Cycles",
+      "country": "USA",
+      "official_website": "https://www.yeticycles.com",
+      "news_channels": {
+        "official_news": "https://www.yeticycles.com/news",
+        "instagram": "yeticycles",
+        "facebook": "yeticycles",
+        "twitter": "@yeticycles"
+      },
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "cannondale",
+      "name": "Cannondale",
+      "country": "USA",
+      "official_website": "https://www.cannondale.com",
+      "news_channels": {
+        "official_news": "https://www.cannondale.com/en-us/news",
+        "instagram": "cannondale",
+        "facebook": "cannondale",
+        "twitter": "@cannondale"
+      },
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "scott",
+      "name": "Scott",
+      "country": "Switzerland",
+      "official_website": "https://www.scott-sports.com",
+      "news_channels": {
+        "official_news": "https://www.scott-sports.com/global/en/news",
+        "instagram": "scott_sports",
+        "facebook": "ScottSports",
+        "twitter": "@ScottSports"
+      },
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "merida",
+      "name": "Merida美利达",
+      "country": "Taiwan",
+      "official_website": "https://www.merida.com",
+      "news_channels": {
+        "official_news": "https://www.merida.com/en/news",
+        "instagram": "meridabikes",
+        "facebook": "meridabikes",
+        "twitter": "@meridabikes"
+      },
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "canyon",
+      "name": "Canyon",
+      "country": "Germany",
+      "official_website": "https://www.canyon.com",
+      "news_channels": {
+        "official_news": "https://www.canyon.com/en-us/news",
+        "instagram": "canyon",
+        "facebook": "canyonbicycles",
+        "twitter": "@canyon"
+      },
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "orbea",
+      "name": "Orbea",
+      "country": "Spain",
+      "official_website": "https://www.orbea.com",
+      "news_channels": {
+        "official_news": "https://www.orbea.com/en/news",
+        "instagram": "orbea_official",
+        "facebook": "Orbea",
+        "twitter": "@orbea_official"
+      },
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "bmc",
+      "name": "BMC",
+      "country": "Switzerland",
+      "official_website": "https://www.bmc-racing.com",
+      "news_channels": {
+        "official_news": "https://www.bmc-racing.com/news",
+        "instagram": "bmc_racing",
+        "facebook": "bmcracingteam",
+        "twitter": "@bmc_racing"
+      },
+      "enabled": true,
+      "priority": 2
+    }
+  ]
+}
